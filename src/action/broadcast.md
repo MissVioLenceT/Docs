@@ -1,15 +1,16 @@
 ---
-title: Broadcast Message
+title: Yayınlama Mesajı
 order: 9
 ---
 
 # {{ $frontmatter.title }}
 
-This action will send the message to every online players
+Aktif olan tüm oyunculara mesaj gönderilmesini sağlar.
 
 ## Format
 
 * `broadcast: <message>`
+* 
 
 ## Example
 
