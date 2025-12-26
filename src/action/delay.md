@@ -5,13 +5,17 @@ order: 12
 
 # {{ $frontmatter.title }}
 
-This action will delay the action flow in the specific ticks (20 ticks = 1 second)
+Bu kısım bir işlemin zaman aralığını temsil eder. Aradaki geçen sürenin habercisidir. 
+
+Alınması/Yapılması için gereken zaman değildir.
+
+Delay ile Cooldown aynı değildir!
 
 ## Format
 
 * `delay: <ticks>`
 
-## Example
+## Örnek
 
 * `delay: 20`
 * `delay: 100`
